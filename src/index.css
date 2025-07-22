@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #161b1e;
+  --color-primary-alt: #22282a;
+  --color-secondary: #ebeaef;
+  --color-secondary-alt: #cfcfcf;
+  --color-tertiary: #1ce480;
+  --color-dark: #111;
+  --color-dark-alt: #22282a;
+  --color-light: #fff;
+  --color-text-dark: white;
+  --color-text-gray: rgb(238, 238, 238);
+  --font-fontDisplay: "Roboto Mono", monospace;
+}
+
+body {
+  font-family: var(--font-fontDisplay);
+}
+/* 
+input:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+} */
